@@ -1,0 +1,30 @@
+{
+  "name": "Quick Pass Emissions",
+  "verifiedOn": "2026-10-13",
+  "address": {
+    "streetAddress": "1185 Old Salem Rd SE",
+    "addressLocality": "Conyers",
+    "addressRegion": "GA",
+    "postalCode": "30094",
+    "addressCountry": "US",
+    "source": "https://gamvexpress.com/locations/"
+  },
+  "coordinates": { "latitude": 33.6503543, "longitude": -84.0056368 },
+  "emissionsAvailable": true,
+  "kioskAvailable": true,
+  "kioskHours": [
+    ["Monday–Friday", "8:00 AM–5:00 PM"],
+    ["Saturday", "9:00 AM–4:00 PM"],
+    ["Sunday", "10:00 AM–3:00 PM"]
+  ],
+  "kioskSource": "https://gamvexpress.com/locations/",
+  "phone": null,
+  "emissionsHours": null,
+  "emissionsPrice": null,
+  "emissionsPayments": null,
+  "appointments": null,
+  "kioskCashAccepted": null,
+  "ownerConfirmed": false,
+  "siteUrl": null,
+  "publicationApproved": false
+}
