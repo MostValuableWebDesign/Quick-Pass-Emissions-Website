@@ -1,0 +1,43 @@
+@import "tailwindcss" source(none);
+@import "@fontsource/barlow-condensed/700.css";
+@source "./App.tsx";
+@source "./components/error-boundary.tsx";
+
+:root {
+  --qp-charcoal: #343B3F;
+  --qp-blue: #0078BD;
+  --qp-blue-deep: #005A8D;
+  --qp-soft-white: #F8F5ED;
+  --qp-stone: #E5E6E4;
+  --qp-navy: #00345B;
+}
+
+@theme {
+  --color-background: var(--qp-soft-white);
+  --color-foreground: var(--qp-charcoal);
+  --color-border: var(--qp-stone);
+  --color-muted-foreground: #586166;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--qp-soft-white); color: var(--qp-charcoal); font-family: var(--font-sans); }
+button, a { touch-action: manipulation; }
+button, a, summary { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid var(--qp-blue); outline-offset: 4px; }
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 12px 18px;
+  background: var(--qp-soft-white);
+  color: var(--qp-navy);
+  border: 2px solid var(--qp-blue-deep);
+  border-radius: 4px;
+  transform: translateY(-160%);
+}
+.skip-link:focus { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

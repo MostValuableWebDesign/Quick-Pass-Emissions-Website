@@ -1,0 +1,212 @@
+.qp-editorial .qp-emissions.qp-emissions-service {
+  --qp-sign-blue: var(--qp-blue);
+  --qp-rule: var(--qp-stone);
+  position: relative;
+  border: 0;
+  border-top: 1px solid var(--qp-stone);
+  background: #F1F2F0;
+  color: var(--qp-charcoal);
+  padding: 54px max(32px, calc((100vw - 1090px)/2)) 58px;
+}
+.qp-editorial .qp-emissions-service::after { display: none; }
+.qp-editorial .qp-emissions-service .qp-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.qp-editorial .qp-emissions.qp-emissions-service .qp-section-label {
+  margin-bottom: 13px;
+  color: var(--qp-blue-deep);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.qp-editorial .qp-emissions-header {
+  margin: 0 auto 25px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--qp-sign-blue);
+  max-width: 1090px;
+}
+.qp-editorial .qp-emissions.qp-emissions-service h2 {
+  max-width: 740px;
+  margin: 0;
+  color: var(--qp-charcoal);
+  font-size: clamp(27px, 3vw, 37px);
+  line-height: 1.2;
+}
+.qp-editorial .qp-emissions-service .qp-emissions-inner {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  grid-template-areas: "visual offer" "visual facts";
+  gap: 18px 44px;
+  align-items: start;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+.qp-editorial .qp-emissions-offer {
+  grid-area: offer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  min-width: 0;
+}
+.qp-editorial .qp-emissions-price {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 18px 12px;
+  background: var(--qp-blue);
+  color: var(--qp-soft-white);
+  border-radius: 0;
+}
+.qp-editorial .qp-emissions-price-amount {
+  font-size: clamp(38px, 4vw, 50px);
+  font-weight: 800;
+  letter-spacing: -.04em;
+  line-height: 1;
+}
+.qp-editorial .qp-emissions-price-unit {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.qp-editorial .qp-emissions-walkin {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 0 5px 12px;
+  border-left: 2px solid var(--qp-sign-blue);
+  color: var(--qp-charcoal);
+  font-size: 13px;
+  font-weight: 650;
+}
+.qp-editorial .qp-emissions-visual {
+  grid-area: visual;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+.qp-editorial .qp-inspection-photo {
+  width: 100%;
+  max-width: 480px;
+  margin: 0;
+}
+.qp-editorial .qp-inspection-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  border-top: 4px solid var(--qp-sign-blue);
+}
+.qp-editorial .qp-inspection-photo figcaption {
+  color: #4b535c;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 9px 0 0;
+}
+.qp-editorial .qp-emissions-facts {
+  grid-area: facts;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 28px;
+  min-width: 0;
+  border-top: 1px solid var(--qp-charcoal);
+}
+.qp-editorial .qp-emissions-card {
+  min-width: 0;
+  padding: 14px 0 12px;
+  border: 0;
+}
+.qp-editorial .qp-emissions-card-heading { margin: 0 0 6px; }
+.qp-editorial .qp-emissions-card h3 {
+  margin: 0;
+  color: var(--qp-charcoal);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.qp-editorial .qp-emissions-service .qp-emissions-card p {
+  margin: 0;
+  color: var(--qp-charcoal);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.qp-editorial .qp-emissions-service .qp-emissions-card .qp-emissions-card-context {
+  margin: 0 0 6px;
+  color: #586166;
+  font-size: 12px;
+}
+.qp-editorial .qp-emissions-service .qp-emissions-card .qp-emissions-payment-note {
+  margin-top: 6px;
+  color: #586166;
+  font-size: 12px;
+}
+.qp-editorial .qp-emissions-card .qp-weekly-hours { color: var(--qp-charcoal); font-size: 13px; }
+.qp-editorial .qp-emissions-preparation {
+  grid-column: 1 / -1;
+  margin-top: 2px;
+  padding-top: 15px;
+  border-top: 1px solid var(--qp-charcoal);
+}
+.qp-editorial .qp-emissions-checklist {
+  list-style: none;
+  counter-reset: prep;
+  padding: 0;
+  margin: 5px 0 10px;
+}
+.qp-editorial .qp-emissions-checklist li {
+  counter-increment: prep;
+  display: grid;
+  grid-template-columns: 25px minmax(0, 1fr);
+  column-gap: 9px;
+  padding: 6px 0;
+  border: 0;
+  color: var(--qp-charcoal);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.qp-editorial .qp-emissions-checklist li::before {
+  content: counter(prep) ".";
+  grid-row: 1 / span 2;
+  color: var(--qp-blue-deep);
+  font-size: 13px;
+  font-weight: 800;
+}
+.qp-editorial .qp-emissions-checklist strong { color: var(--qp-charcoal); font-weight: 750; }
+.qp-editorial .qp-emissions-service .qp-emissions-card .qp-emissions-callout {
+  margin: 0 0 6px;
+  color: #586166;
+  font-size: 12px;
+}
+.qp-editorial .qp-emissions-official {
+  color: var(--qp-blue-deep);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.qp-editorial .qp-emissions-official:hover { color: var(--qp-blue-deep); }
+@media (max-width: 900px) {
+  .qp-editorial .qp-emissions.qp-emissions-service { padding: 40px 21px; }
+  .qp-editorial .qp-emissions-service .qp-emissions-inner {
+    max-width: 680px;
+    margin: 0 auto;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "offer" "facts" "visual";
+    gap: 22px;
+  }
+  .qp-editorial .qp-inspection-photo { max-width: 560px; }
+}
+@media (max-width: 650px) {
+  .qp-editorial .qp-emissions.qp-emissions-service { padding: 34px 18px; }
+  .qp-editorial .qp-emissions-facts { grid-template-columns: minmax(0, 1fr); }
+  .qp-editorial .qp-emissions-price-amount { font-size: 36px; }
+}

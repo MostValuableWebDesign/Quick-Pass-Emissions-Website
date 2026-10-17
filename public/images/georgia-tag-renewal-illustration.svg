@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="plate-title plate-desc">
+  <title id="plate-title">Illustrative Georgia anniversary license plate</title>
+  <desc id="plate-desc">A Georgia plate illustration with a 250-year anniversary heading, a Revolutionary War flag motif, the example number ABC123, and a county label.</desc>
+  <defs>
+    <linearGradient id="plate-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#f1e8d3"/>
+    </linearGradient>
+    <filter id="plate-shadow" x="-5%" y="-8%" width="110%" height="116%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#25292a" flood-opacity=".16"/>
+    </filter>
+    <clipPath id="georgia-clip">
+      <path d="M84 130 171 130 173 146 182 157 177 172 184 187 176 201 180 214 168 227 165 242 148 251 132 246 121 258 107 250 100 234 91 225 94 209 83 198 90 184 84 171 90 157 84 144Z"/>
+    </clipPath>
+  </defs>
+  <g filter="url(#plate-shadow)">
+    <rect x="14" y="14" width="732" height="312" rx="19" fill="#fbfbf8" stroke="#343a3e" stroke-width="3"/>
+    <rect x="24" y="24" width="712" height="292" rx="15" fill="url(#plate-fill)" stroke="#a4a7a4" stroke-width="1.5"/>
+  </g>
+  <path d="M66 29H694" stroke="#174d6a" stroke-width="4"/>
+  <g fill="#d7d8d4" stroke="#a2a4a1" stroke-width="1">
+    <rect x="39" y="31" width="22" height="6" rx="3"/>
+    <rect x="699" y="31" width="22" height="6" rx="3"/>
+    <rect x="39" y="303" width="22" height="6" rx="3"/>
+    <rect x="699" y="303" width="22" height="6" rx="3"/>
+  </g>
+  <text x="380" y="68" text-anchor="middle" fill="#191919" font-family="Georgia, 'Times New Roman', serif" font-size="45">GEORGIA</text>
+  <text x="380" y="91" text-anchor="middle" fill="#201f1d" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="700">250 Year Anniversary Revolutionary War</text>
+  <path d="M25 103H735" stroke="#b6383e" stroke-width="5"/>
+  <path d="M25 109H735" stroke="#faf7ef" stroke-width="2"/>
+  <path d="M84 130 171 130 173 146 182 157 177 172 184 187 176 201 180 214 168 227 165 242 148 251 132 246 121 258 107 250 100 234 91 225 94 209 83 198 90 184 84 171 90 157 84 144Z" fill="#f6efe0" stroke="#78818a" stroke-width="2"/>
+  <g clip-path="url(#georgia-clip)">
+    <rect x="75" y="126" width="120" height="142" fill="#f5eee0"/>
+    <path d="M72 145 196 212M68 169 192 236M67 194 176 253M81 127 199 190" stroke="#bd3f49" stroke-width="13"/>
+    <path d="M72 130 135 130 138 183 75 183Z" fill="#173c67"/>
+    <g fill="#fff9e8">
+      <circle cx="87" cy="140" r="2.5"/><circle cx="103" cy="140" r="2.5"/><circle cx="119" cy="140" r="2.5"/>
+      <circle cx="95" cy="153" r="2.5"/><circle cx="111" cy="153" r="2.5"/><circle cx="127" cy="153" r="2.5"/>
+      <circle cx="87" cy="166" r="2.5"/><circle cx="103" cy="166" r="2.5"/><circle cx="119" cy="166" r="2.5"/>
+    </g>
+    <path d="M79 202 144 202 143 254 78 254Z" fill="#173c67"/>
+  </g>
+  <text x="111" y="239" text-anchor="middle" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-style="italic" font-weight="700">1776</text>
+  <text x="450" y="226" text-anchor="middle" fill="#151515" font-family="'Arial Narrow', Arial, Helvetica, sans-serif" font-size="142" font-weight="800" letter-spacing="1">ABC123</text>
+  <text x="417" y="292" text-anchor="middle" fill="#171717" font-family="'Arial Narrow', Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="1.5">COUNTY</text>
+  <path d="M684 263h29v37h-29z" fill="none" stroke="#3e4344" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="698.5" y="276" text-anchor="middle" fill="#353637" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700">PLACE</text>
+  <text x="698.5" y="285" text-anchor="middle" fill="#353637" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700">DECAL</text>
+  <text x="698.5" y="294" text-anchor="middle" fill="#353637" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700">HERE</text>
+</svg>

@@ -1,0 +1,174 @@
+.qp-editorial .qp-renewal {
+  --qp-sign-blue: var(--qp-blue);
+  --qp-rule: var(--qp-stone);
+  position: relative;
+  isolation: isolate;
+  color: var(--qp-charcoal);
+  background: #FFFFFF;
+}
+.qp-editorial .qp-renewal::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 calc(50% - 50vw);
+  background: #FFFFFF;
+}
+.qp-editorial .qp-renewal .qp-section-label {
+  margin-bottom: 11px;
+  color: var(--qp-blue-deep);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.qp-editorial .qp-renewal .qp-renew-intro::before {
+  width: 38px;
+  height: 3px;
+  margin-bottom: 18px;
+  border-radius: 0;
+  background: var(--qp-sign-blue);
+}
+.qp-editorial .qp-renewal .qp-renew-intro p { color: var(--qp-charcoal); }
+.qp-editorial .qp-renewal .qp-renew-intro p a {
+  color: var(--qp-blue-deep);
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+.qp-editorial .qp-renewal .qp-kiosk-site-photo {
+  width: min(100%, 340px);
+  margin: 20px 0 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.qp-editorial .qp-renewal .qp-kiosk-site-photo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin: 0;
+}
+.qp-editorial .qp-renewal .qp-kiosk-site-caption {
+  padding: 9px 0 0;
+  color: #586166;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+.qp-editorial .qp-renewal .qp-renew-info {
+  min-width: 0;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.qp-editorial .qp-renewal .qp-renew-info-header {
+  padding-bottom: 13px;
+  border-bottom: 2px solid var(--qp-sign-blue);
+}
+.qp-editorial .qp-renewal .qp-renew-info-header h3 {
+  color: var(--qp-charcoal);
+  font-size: 25px;
+}
+.qp-editorial .qp-renewal .qp-renew-info-header p { color: #586166; }
+.qp-editorial .qp-renewal .qp-kiosk-primary {
+  margin-top: 15px;
+  padding: 0 0 14px;
+  border: 0;
+  border-bottom: 1px solid var(--qp-rule);
+  border-radius: 0;
+  background: transparent;
+}
+.qp-editorial .qp-renewal .qp-kiosk-primary-label {
+  margin-bottom: 8px;
+  color: var(--qp-blue-deep);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.qp-editorial .qp-renewal .qp-kiosk-option-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 6px;
+}
+.qp-editorial .qp-renewal .qp-kiosk-option {
+  min-width: 0;
+  color: var(--qp-charcoal);
+  font-size: 14px;
+}
+.qp-editorial .qp-renewal .qp-kiosk-option svg { color: var(--qp-sign-blue); }
+.qp-editorial .qp-renewal .qp-kiosk-option strong { font-weight: 700; }
+.qp-editorial .qp-renewal .qp-kiosk-option-or {
+  justify-self: start;
+  margin: 0 0 0 29px;
+  padding: 0;
+  border: 0;
+  color: #586166;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+.qp-editorial .qp-renewal .qp-kiosk-requirements { margin-top: 16px; }
+.qp-editorial .qp-renewal .qp-kiosk-requirements h4 {
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  color: var(--qp-charcoal);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.qp-editorial .qp-renewal .qp-checklist { display: block; }
+.qp-editorial .qp-renewal .qp-checklist li {
+  padding: 7px 0;
+  border: 0;
+}
+.qp-editorial .qp-renewal .qp-kiosk-requirement-copy {
+  grid-template-columns: minmax(115px, .7fr) minmax(0, 1.3fr);
+  gap: 2px 12px;
+  width: 100%;
+}
+.qp-editorial .qp-renewal .qp-kiosk-requirement-copy strong {
+  color: var(--qp-charcoal);
+  font-size: 13px;
+}
+.qp-editorial .qp-renewal .qp-kiosk-requirement-copy > span {
+  color: var(--qp-charcoal);
+  font-size: 13px;
+}
+.qp-editorial .qp-renewal .qp-kiosk-policy p { color: #586166; }
+.qp-editorial .qp-renewal .qp-kiosk-official-link { color: var(--qp-blue-deep); }
+.qp-editorial .qp-renewal .qp-kiosk-official-link:hover { color: var(--qp-blue-deep); }
+.qp-editorial .qp-renewal .qp-renew-payment-strip {
+  margin: 0;
+  padding: 12px 0 0;
+  border-top: 1px solid var(--qp-charcoal);
+  background: transparent;
+  gap: 18px;
+}
+.qp-editorial .qp-renewal .qp-renew-payment-item { color: var(--qp-blue-deep); }
+.qp-editorial .qp-renewal .qp-renew-payment-item strong {
+  color: var(--qp-charcoal);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.qp-editorial .qp-renewal .qp-renew-payment-item span span { color: var(--qp-charcoal); }
+@media (max-width: 650px) {
+  .qp-editorial .qp-renewal .qp-renew-info { padding: 0; }
+  .qp-editorial .qp-renewal .qp-kiosk-requirement-copy { grid-template-columns: minmax(0, 1fr); gap: 1px; }
+  .qp-editorial .qp-renewal .qp-kiosk-site-photo { width: min(100%, 340px); margin: 18px auto 0; }
+  .qp-editorial .qp-renewal .qp-kiosk-site-photo img { height: 300px; margin: 0 auto; }
+  .qp-editorial .qp-renewal .qp-kiosk-site-caption { text-align: center; }
+  .qp-editorial .qp-renewal .qp-renew-payment-strip { margin: 0; padding: 12px 0 0; }
+}
